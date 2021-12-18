@@ -4,7 +4,9 @@ go 1.17
 
 require (
 	github.com/cloudquery/cq-provider-sdk v0.5.2
+	github.com/google/go-github/v40 v40.0.0
 	github.com/hashicorp/go-hclog v1.0.0
+	golang.org/x/oauth2 v0.0.0-20210628180205-a41e5a781914
 )
 
 require (
@@ -20,6 +22,7 @@ require (
 	github.com/golang-migrate/migrate/v4 v4.15.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
@@ -66,7 +69,7 @@ require (
 	github.com/xo/dburl v0.8.4 // indirect
 	github.com/zclconf/go-cty v1.9.1 // indirect
 	go.uber.org/atomic v1.6.0 // indirect
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
+	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
 	golang.org/x/net v0.0.0-20210520170846-37e1c6afe023 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6 // indirect

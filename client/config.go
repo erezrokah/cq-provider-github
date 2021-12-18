@@ -3,11 +3,9 @@ package client
 // Provider Configuration
 
 type Config struct {
-	// here goes top level configuration for your provider
-	// This object will be pass filled in depending on user's configuration
-	// CHANGEME
-	ExampleConfig string `hcl:"example_config"`
+	GitHubToken string `hcl:"github_token,optional"`
 
+	Organizations []string `hcl:"organizations,optional"`
 	// resources that user asked to fetch
 	// each resource can have optional additional configurations
 	Resources []struct {
@@ -18,12 +16,12 @@ type Config struct {
 
 func (c Config) Example() string {
 	return `configuration {
-	// CHANGEME:
-	//Here you define your default/example documentation.
-	//That is generated with cloudquery init YourProviderName
-	// Optional or required parameters
-	// debug = false
-	// api_key = ""	
+	// Add this line    
+	// api_key = ${your_env_variable}
+	// api_key = static_api_key
+
+	// organizations you want
+	organizations = []
 }
 `
 }
