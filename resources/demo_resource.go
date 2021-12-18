@@ -3,9 +3,8 @@ package resources
 import (
 	"context"
 
+	"github.com/cloudquery/cq-provider-github/client"
 	"github.com/cloudquery/cq-provider-sdk/provider/schema"
-	// CHANGEME change this to your package name
-	"github.com/cloudquery/cq-provider-template/client"
 )
 
 func DemoResource() *schema.Table {

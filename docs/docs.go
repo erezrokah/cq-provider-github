@@ -6,8 +6,7 @@ import (
 	"os"
 	"path"
 
-	// CHNAGE ME: Change this to your own provider GitHub
-	"github.com/cloudquery/cq-provider-template/resources"
+	"github.com/cloudquery/cq-provider-github/resources"
 
 	"github.com/cloudquery/cq-provider-sdk/provider/docs"
 )

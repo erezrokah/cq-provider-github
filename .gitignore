@@ -1,4 +1,4 @@
-cq-provider-template
+cq-provider-github
 config.hcl
 .config.hcl.swp
 .cq_reattach
