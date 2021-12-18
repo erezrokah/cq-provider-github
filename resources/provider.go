@@ -19,8 +19,7 @@ func Provider() *provider.Provider {
 		Name:      "github",
 		Configure: client.Configure,
 		ResourceMap: map[string]*schema.Table{
-			// CHANGEME: place here all supported resources
-			"demo_resource": DemoResource(),
+			"repositories": Repositories(),
 		},
 		Migrations: providerMigrations,
 		Config: func() provider.Config {
